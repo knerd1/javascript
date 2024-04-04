@@ -13,3 +13,4 @@ let oneNumber = 23
 let stringno = String(oneNumber)
 console.log(stringno);
 console.log(typeof(stringno));
+console.log();
