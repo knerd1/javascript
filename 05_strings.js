@@ -17,4 +17,8 @@ console.log(anime.substring(8)); //same as .slice() method
 console.log(anime.substr(0,5));  //same as .slice() method
 console.log(anime.toUpperCase());  //converted to uppercase
 console.log(anime.toLowerCase());   //converted to lowercase
-
+let anime2 = "tokyo Revengers"
+let All = anime.concat(', ' + anime2) //we can use this as "+"
+console.log(All);
+let anime4 = "    kyoto"
+console.log(anime4.trim()); //removes whitespace from string from both side
