@@ -35,3 +35,4 @@ console.log(anime2.split(""));
 console.log(anime2.split(" "));
 console.log(anime2.split(""));
 console.log(anime2.split("|")); // we can convert string into array
+console.log(anime.includes('monster')); //can know if value exits in variable or not
