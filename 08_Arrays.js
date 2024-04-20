@@ -24,7 +24,7 @@ console.log(typeof newArry);
 console.log("Orignal Array=", myArr);
 console.log("Sliced Array=",myArr.slice(1,4));               //Slice takes value 1,2,3 and will not take 4
 console.log("Check Array is Changed or not",myArr);           // Array will not change after slice method
-console.log("Spliced Array",myArr.splice(1,3));             //Splice takes all Values 1,2,3
+console.log("Spliced Array",myArr.splice(1,3));               //Splice takes all Values 1,2,3
 console.log("Check Array is Changed or not",myArr);          // Array will not change after splice method
 
 myArr.push(animes)    // push operation will add one array into another array
@@ -51,3 +51,5 @@ let Score1=3232
 let Score2="3322"
 let Score3= 34232
 console.log(Array.of(Score1,Score2,Score3));   // .of() it will also any variable or anything into Arrays
+let Name= "harsh"
+console.log(Array.of({Name:help}));
