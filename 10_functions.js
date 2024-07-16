@@ -63,4 +63,27 @@ function allPlayer(...players) {                   /// ... rest operators also s
 //function allPlayer(val1,val2,...players) {       /// val1=gon val2=leorio left will go into players
     return players
 }
-console.log(allPlayer("Gon","leorio","killua", 212));
+// console.log(allPlayer("Gon","leorio","killua", 212));
+
+//--------------------------------------------------
+
+const hxh = {                                 //pass Object into function
+          name :"gon",
+          rank :21
+}
+function handleObject(AnyObject) {
+    console.log(`username is ${AnyObject.name} and rank is ${AnyObject.rank}`);
+}
+ handleObject(hxh)
+handleObject({
+    name:"leorio",
+    rank: 32
+})
+//-------------------------------------------
+
+const NewArry = [21,23,435,54,565]            //pass Aarry into function
+function returnn(getarry) {
+    return getarry[0]
+}
+console.log(returnn(NewArry));
+console.log(returnn([12,232,434,42,233]));
