@@ -8,7 +8,7 @@ if (true) {                     // This is block scope value will not come outsi
 }
 
 // console.log(a);    a will not print because let value will not come outside from this block
-console.log(b);    like a, 
- console.log(c);   
+// console.log(b);   // like a, 
+// console.log(c);   
 
 console.log(a);
