@@ -11,4 +11,4 @@ console.log(a);    //a will not print because let value will not come outside fr
 console.log(b);   // like a, 
 console.log(c);   
 
-console.log(a);
+// console.log(a);
