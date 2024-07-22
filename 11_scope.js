@@ -42,13 +42,13 @@ if (true) {
 // ---------------------------------------------------------------
 // two ways of declaring function
 // (i) Simple method
-console.log(addOne(32));
+console.log(addOne(32));       //here we only declare the function, it will run
 function addOne(num) {
     return num +1
 }
 //----------------------------------------------------------------
-// (ii) by expression
-console.log(addTwo(23));
-const addTwo = function(num) {    
-    return num +1
+// (ii) by expression(save the function in variable)
+console.log(addTwo(23));  //thats why it can not access the addTwo function
+const addTwo = function(num) {     //but here we are holding the function in variable along with declaring
+    return num +1                   
 }
