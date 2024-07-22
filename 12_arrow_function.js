@@ -40,4 +40,4 @@ const fruits =  ()=> {
 //let number = (num1,num2) => num1+num2   //as a implicit return
 //let number = (num1,num2) => (num1+num2)  //in {} we have to write return keyword but in () return keyword dont need
 let test = () => ({Value:"pass"})   //returning object
-console.log(test(644,75));      
+console.log(test(644,75));    
