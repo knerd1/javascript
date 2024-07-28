@@ -51,3 +51,19 @@ if (userLoggedin && debitCard && 2==4) {
 if (loggedInFromGoogle || loggedInFromEmail) {
      console.log("userLoggedIN");
 }
+
+//______________________________________________________________
+//Nullish coalescing operator (??): Null, undefiend
+let val1;
+val1 = 5 ?? 10 ?? 34
+val1 = null ?? null ?? 12
+val1 = undefined ?? 13
+val1 = 32 ?? 34
+val1 = null ?? undefined ?? 42 
+console.log(val1);
+
+//_____________________________________________
+// Terniary operators
+// condition ?  true : false
+const iceTeaPrice = 600
+iceTeaPrice < 600 ? console.log("ice tea is cheaper") : console.log("ice tea is costly");
