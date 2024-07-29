@@ -7,10 +7,33 @@ for (let i = 0; i <=10; i++) {
 }
 
 //_______________________________
-for (let i = 0; i <=10; i++) {
-     console.log(`outerloop:${i}`);
-     for (let j = 0; j <=10; j++) {
+for (let i = 1; i <=10; i++) {
+     //console.log(`outerloop:${i}`);
+     for (let j = 1; j <=10; j++) {
     // console.log(`innerloop:${j} and outerloop${i }`);
-    console.log(i + '*' + j + "=" + i*j  );
+   // console.log(i*j);
      }
+}
+const hunters =["gon","kurapika",'killua','leario']
+for (let i = 0; i < hunters.length; i++) {
+     const element = hunters[i];
+     //console.log(element);
+}
+
+// Break And continue
+for (let i = 0; i <= 20; i++) {
+     if (i==5) {
+         // console.log("detected 5 now here loop will stop");
+          break
+     }
+     const element = i;
+     //console.log(element);
+}
+for (let i = 0; i <= 20; i++) {
+     if (i==5) {
+          console.log("detected 5 now here loop will still continue");
+          continue
+     }
+     const element = i;
+     console.log(element);
 }
