@@ -1,12 +1,12 @@
 let coding = ["js","java","rb","py","cpp"]
 coding.forEach(function (val) {
-     console.log(val);
+     //console.log(val);
 })
 coding.forEach((item)=>{
-     console.log(item);
-}  )
+     //console.log(item);
+})
 function printme(vals,) {
-     console.log(vals);
+     //console.log(vals);
 }
 // coding.forEach(printme)
 
