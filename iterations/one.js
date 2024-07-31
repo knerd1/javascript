@@ -23,8 +23,8 @@ for (let i = 0; i < hunters.length; i++) {
 // Break And continue
 for (let i = 0; i <= 20; i++) {
      if (i==5) {
-         // console.log("detected 5 now here loop will stop");
-          break
+         console.log("detected 5 now here loop will stop");
+          break                         //loop will stop 
      }
      const element = i;
      //console.log(element);
