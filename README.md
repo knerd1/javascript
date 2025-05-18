@@ -1,2 +1,2 @@
 # javascript
-code repo for js
+code repo for javascript
